@@ -1,0 +1,6 @@
+Saida padrão
+condicionais.sh
+hello-world.sh
+if-aninhado.sh
+redirect_file.txt
+redirects.sh
