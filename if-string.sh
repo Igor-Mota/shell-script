@@ -9,7 +9,6 @@
 # -n | se a largura e maior que zero
 # -z | se e igual a zero
 
-
 if test "carro" = "carro"
   then
     echo "carro e igual a carro"
@@ -20,9 +19,9 @@ if test "carro" != "cadeira"
     echo "carro e dirente de cadeira"
 fi
 
-if test "O rato roeu a roupa do rei de roma" > "O rato roeu"
-then
-  echo "O rato roeu a roupa do rei de roma e maior que O rato roeu"
+if test [ "O rato roeu a roupa do rei de roma" > "O rato roeu" ]
+  then
+    echo "O rato roeu a roupa do rei de roma e maior que O rato roeu"
 fi
 
 if test "O rato roeu a roupa do rei de roma" < "O rato roeu"
